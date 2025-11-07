@@ -14,7 +14,7 @@ public class StackExample {
         /*
         Stack is an old legacy class, people suggest to use
         ArrayDeque and LinkedList since they're faster. If you need
-        fast insert/delete in the middle of the list or store null value
+        fast insert/delete in the middle of the list or storing null value
         , use LinkedList.
         Otherwise, ArrayDeque is more efficient in performance
          */

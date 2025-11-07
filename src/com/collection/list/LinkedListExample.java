@@ -42,7 +42,7 @@ public class LinkedListExample {
         stackList.push("F");
         stackList.push("E");
         stackList.push("G");
-        stackList.pop();
+        stackList.pop(); // Remove and retrieve the top element
         System.out.println("\nStack: " + stackList);
         System.out.println("Peek top: " + stackList.peek());
 
@@ -54,7 +54,7 @@ public class LinkedListExample {
         queueList.offer("E");
         queueList.offer("F");
         queueList.offer("G");
-        queueList.poll();
+        queueList.poll(); // Remove and retrieve the head element
         System.out.println("\nQueue: " + queueList);
         System.out.println("Peek head: " + queueList.peek());
 
@@ -65,8 +65,8 @@ public class LinkedListExample {
         dequeList.add("E");
         dequeList.addFirst("A");
         dequeList.addLast("F");
-        dequeList.removeFirst();
-        dequeList.removeLast();
+        dequeList.removeFirst(); // or pollFirst()
+        dequeList.removeLast(); // or pollLast()
         System.out.println("\nDeck: " + dequeList);
         System.out.println("Peek first: " + dequeList.peekFirst()); // or getFirst()
         System.out.println("Peek last: " + dequeList.peekLast()); // or getLast()
