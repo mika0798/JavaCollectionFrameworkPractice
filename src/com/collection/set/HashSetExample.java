@@ -1,4 +1,4 @@
 package com.collection.set;
 
-public class LinkedHashSet {
+public class HashSetExample {
 }

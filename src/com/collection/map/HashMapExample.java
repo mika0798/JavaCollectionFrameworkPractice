@@ -1,4 +1,4 @@
 package com.collection.map;
 
-public class HashMap {
+public class HashMapExample {
 }

@@ -1,4 +1,4 @@
 package com.collection.queue;
 
-public class LinkedListAsStack {
+public class ArrayDequeExample {
 }
