@@ -24,7 +24,7 @@ public class TreeSetExample {
         System.out.println("Smallest element: " + numbers.first());
         System.out.println("Largest element: " + numbers.last());
         System.out.println("Elements smaller than 30: " + numbers.headSet(30));
-        System.out.println("Các greater than 20: " + numbers.tailSet(20));
+        System.out.println("Elements greater than 20: " + numbers.tailSet(20));
         System.out.println("Smaller and closest to 25: " + numbers.lower(25));
         System.out.println("Larger and closest to 25: " + numbers.higher(25));
     }
