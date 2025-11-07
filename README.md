@@ -45,11 +45,11 @@ Map (interface)
             </tr>
             <tr>
               <td data-label="Purpose">Queue (FIFO)</td>
-              <td data-label="Recommended Collection"><span class="badge">Queue</span> (<em>LinkedList</em> or <em>ArrayDeque</em>)</td>
+              <td data-label="Recommended Collection"><em>LinkedList</em> or <em>ArrayDeque</em></td>
             </tr>
             <tr>
               <td data-label="Purpose">Stack (LIFO)</td>
-              <td data-label="Recommended Collection"><span class="badge">Stack</span></td>
+              <td data-label="Recommended Collection"><em>LinkedList</em> or <em>ArrayDeque</em></td>
             </tr>
             <tr>
               <td data-label="Purpose">Unique elements, no order needed</td>
